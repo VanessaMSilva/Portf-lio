@@ -1,6 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:wght@300&display=swap');
-
-
 .container-fluid{
     min-height: 70vh;
     background-color: #F4F7FA;
@@ -10,30 +8,14 @@
     color: black;
     display: flex;
     justify-content: center;  /* Alinha horizontalmente (opcional) */
-    
 }
-
 #foto{
     background-color: white;
     border-radius:100%;
     border: 1px solid black;
-    width: 50;
-    height: 50px;
+    width: 30px;
+    height: 30px;
     margin: 0 20px;
-}
-
-#navbarNavDropdown {
-    display: flex;
-    justify-content: flex-end; /* Alinha os filhos (ex: ul) à direita */
-    align-items: center;       /* Alinha verticalmente */
-}
-.nav-item{
-    margin: 0 60px;
-}
-
-.nav-item > a, #a-menu{
-    font-size: 16pt;
-    font-family: 'Courier New', Courier, monospace;
 }
 
 a{
@@ -46,21 +28,34 @@ body{
     color: black;
     background-color: #F4F7FA;
 }
+
+.navbar-toggler, navbar-toggler-icon, #burguer {
+    color: white;
+    display: flex;
+    align-items: center; /* Centraliza verticalmente os elementos */
+padding: 0;
+margin: 0;
+}
+
+.nav-item{
+    text-align: center;
+}
+
 .navbar, .footer{
     background-color: black;
-    
 }
 
 .flex{
-flex: content;
+    flex: content;
     flex-wrap: wrap;
     flex-direction: row;
-}
+} 
 
-.navbar{
-    height: 8vh;
+#div-menu{
+        display: flex;
+    justify-content: flex-end;  
+    align-items: center;   
 }
-
 #inicio {
     background-image: url("../images/fundo4.jpg");
     background-repeat: no-repeat;
@@ -75,7 +70,7 @@ flex: content;
     padding: 0 60vh;
 }
 #projetos{
-    padding: 0;
+    padding: 10px;
     background-image: linear-gradient(to right, #bd53c4, rgb(255, 255, 255));
 }
 
@@ -83,6 +78,7 @@ body{
     background-color: black;
 }
 ol > li >a{
+    text-decoration: none;
     font-size: 18pt;
 }
 
@@ -177,18 +173,20 @@ a:hover{
 .lista-contato i {
   margin-right: 8px;
 }
+
 #projetos{
-margin: 0;
-padding: 0;
-}
-.trabalhos{
     margin: 0;
-padding: 0;
-    background-image: url("../images/tv.png");
-    background-repeat: no-repeat;
-    background-size: cover;         /* Cobre toda a div mantendo a proporção */
-    background-position: center;    /* Centraliza a imagem */
-    width: 100vh;                    /* Garante que a div ocupe toda a largura */
-    height: 100vh;                  /* Altura igual à altura da janela */
-  
+    padding: 0;
+}
+
+.navbar-toggler-icon{
+    color: #fff;
+}
+
+
+@media(max-width: 1106px) {
+    #sobre{
+        padding: 10px;
+    }
+    
 }
