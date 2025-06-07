@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:wght@300&display=swap');
+
+
+.container-fluid{
+    min-height: 70vh;
+    background-color: #F4F7FA;
+    padding: 30px;
+    text-align: center;
+    align-items: center;
+    color: black;
+    display: flex;
+    justify-content: center;  /* Alinha horizontalmente (opcional) */
+    
+}
+
+#foto{
+    background-color: white;
+    border-radius:100%;
+    border: 1px solid black;
+    width: 50;
+    height: 50px;
+    margin: 0 20px;
+}
+
+#navbarNavDropdown {
+    display: flex;
+    justify-content: flex-end; /* Alinha os filhos (ex: ul) à direita */
+    align-items: center;       /* Alinha verticalmente */
+}
+.nav-item{
+    margin: 0 60px;
+}
+
+.nav-item > a, #a-menu{
+    font-size: 16pt;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+a{
+    color: white;
+}
+p{
+    font-size: 14pt;
+}
+body{
+    color: black;
+    background-color: #F4F7FA;
+}
+.navbar, .footer{
+    background-color: black;
+    
+}
+
+.flex{
+flex: content;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.navbar{
+    height: 8vh;
+}
+
+#inicio {
+    background-image: url("../images/fundo4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;         /* Cobre toda a div mantendo a proporção */
+    background-position: center;    /* Centraliza a imagem */
+    width: 100%;                    /* Garante que a div ocupe toda a largura */
+    height: 100vh;                  /* Altura igual à altura da janela */
+  
+}
+#sobre{
+    background-color: white;
+    padding: 0 60vh;
+}
+#projetos{
+    padding: 0;
+    background-image: linear-gradient(to right, #bd53c4, rgb(255, 255, 255));
+}
+
+body{
+    background-color: black;
+}
+ol > li >a{
+    font-size: 18pt;
+}
+
+body{
+      font-family: 'Inter', sans-serif;
+}
+h1{
+    font-family: 'Courier New', monospace;
+}
+a{
+    font-family: 'Courier', monospace;
+}
+a:hover{
+    color: #bd53c4;
+    text-decoration: none;
+}
+
+
+
+#inicio h1, h1 {
+  font-size: 3rem;
+  margin: 10px 0;
+}
+
+#inicio h3 {
+  font-weight: 300;
+  color: #bd53c4;
+}
+
+#inicio p {
+  margin-top: 20px;
+  font-size: 1.1rem;
+}
+
+.btn {
+  display: inline-block;
+  margin: 15px 10px 0;
+  padding: 10px 20px;
+  background-color: #bd53c4;
+  color: #000;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+.btn:hover {
+  background-color: #bd53c4;
+}
+
+.btn-secundario {
+  background-color: transparent;
+  border: 2px solid #bd53c4;
+  color: #bd53c4;
+}
+
+.btn-secundario:hover {
+  background-color: #bd53c4;
+  color: #000;
+}
+
+.footer {
+  background-color: #111;
+  color: white;
+  padding: 40px 20px;
+}
+
+.footer h1 {
+  margin-bottom: 30px;
+  color: #bd53c4;;
+}
+
+.lista-contato {
+  list-style: none;
+  padding: 0;
+  margin: 0 auto;
+  max-width: 400px;
+}
+
+.lista-contato li {
+  margin: 15px 0;
+}
+
+.lista-contato a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.1rem;
+  transition: color 0.3s;
+}
+
+
+.lista-contato i {
+  margin-right: 8px;
+}
+#projetos{
+margin: 0;
+padding: 0;
+}
+.trabalhos{
+    margin: 0;
+padding: 0;
+    background-image: url("../images/tv.png");
+    background-repeat: no-repeat;
+    background-size: cover;         /* Cobre toda a div mantendo a proporção */
+    background-position: center;    /* Centraliza a imagem */
+    width: 100vh;                    /* Garante que a div ocupe toda a largura */
+    height: 100vh;                  /* Altura igual à altura da janela */
+  
+}
