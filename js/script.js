@@ -103,6 +103,23 @@ function mostrarInfo($nome) {
       width: 700,
       confirmButtonText: 'Fechar'
     });
+  }else if ($nome == "mapa") {
+    Swal.fire({
+      title: 'Mapa',
+      html: `
+      <iframe width="100%" height="315" src="https://www.youtube.com/embed/lJrcZ6PrLss?si=NieAU_bzgGYuBoqJ"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen>
+      </iframe>
+      <p>O mapa é um projeto desenvolvidos com react, firebase, javascript, css.</p>
+
+
+      <p><a id="sweet" href="https://github.com/VanessaMSilva/Mapa" target="_blank">GitHub: VanessaMSilva/Mapa</a></p>
+   `,
+      width: 700,
+      confirmButtonText: 'Fechar'
+    });
   }
 
 }
